@@ -1,0 +1,20 @@
+// Spacing controller
+.wp-block-spacer {
+    &.is-style {
+        &-spacer-mobile {
+            display: none;
+
+            @include media-breakpoint-between(xs,md) {
+                display: block;
+            }
+        }
+
+        &-spacer-desktop {
+            display: none;
+
+            @include media-breakpoint-up(lg) {
+                display: block;
+            }
+        }
+    }
+}

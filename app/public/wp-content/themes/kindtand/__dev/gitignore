@@ -1,0 +1,58 @@
+# ignore everything in the root except the "wp-content" directory.
+/*
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# plugins, and themes directories
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# ignore everything in the "plugins" directory, except:
+# "acf-local-json"
+wp-content/plugins/*
+!wp-content/plugins/acf-local-json/
+
+# ignore everything in the "themes" directory, except:
+# The custom theme
+wp-content/themes/index.php
+wp-content/themes/twenty*
+
+# ignore any node_modules directory:
+**/*/node_modules/
+
+
+# large/disallowed file types
+# a CDN should be used for these
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi

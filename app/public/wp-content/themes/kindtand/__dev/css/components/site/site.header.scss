@@ -1,0 +1,33 @@
+.site-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	background: transparent;
+
+	&__wrapper {
+		position: relative;
+		background: $color-white;
+		z-index: 1;
+	}
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 80px;
+
+		@include media-breakpoint-up(lg) {
+			height: 100px;
+		}
+	}
+
+	&__action-wrapper {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 100%;
+		position: relative;
+	}
+}

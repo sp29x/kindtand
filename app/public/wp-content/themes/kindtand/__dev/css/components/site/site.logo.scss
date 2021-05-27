@@ -1,0 +1,26 @@
+.site-logo {
+	position: relative;
+
+	&__img {
+		display: block;
+		height: 35px;
+		width: auto;
+		transition: height .5s;
+
+		@include media-breakpoint-up(md) {
+			height: 45px;
+		}
+
+		@include media-breakpoint-up(lg) {
+			height: 54px;
+		}
+	}
+
+	&__link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+}

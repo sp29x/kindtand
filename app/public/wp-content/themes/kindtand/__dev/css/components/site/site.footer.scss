@@ -1,0 +1,10 @@
+.site-footer {
+	padding-top: 75px;
+	padding-bottom: 75px;
+	background: $color-gray-light;
+	
+	@include media-breakpoint-up(md) {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}

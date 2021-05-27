@@ -1,0 +1,31 @@
+/* Colors
+********************/
+$color-gray-dark: 				#292929;
+$color-gray:                    #D8D8D8;
+$color-gray-light:              #F1F1F1;
+$color-white:                   #ffffff;
+$color-black: 					#000000;
+$color-green-neon:				#29f29f;
+
+$color-primary:					$color-green-neon;
+$color-secondary: 				$color-gray-dark;
+
+$color-link:                    $color-green-neon;
+$color-text: 					$color-gray-dark;
+
+
+/* Typography
+********************/
+$base-font-family: 				aktiv-grotesk, sans-serif;
+$base-font-size:				16px;
+$base-font-weight: 				400;
+$base-line-height: 				1.5;
+
+$header-font-family: 			$base-font-family;
+$header-font-weight:			700;
+$header-line-height:			1.1;
+
+
+/* Layout
+********************/
+$site-background-color: 		$color-white;

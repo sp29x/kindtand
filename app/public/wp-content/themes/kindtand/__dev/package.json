@@ -1,0 +1,37 @@
+{
+   "name": "29xStudio",
+   "version": "1.0.0",
+   "description": "Gulp setup for WordPress theme boilerplate",
+   "main": "gulpfile.js",
+   "browserslist": "> 0.25%, not dead",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "29x Studio",
+   "license": "ISC",
+   "dependencies": {
+      "@barba/core": "^2.9.7",
+      "babel-polyfill": "^6.26.0",
+      "core-js": "2",
+      "gulp-imagemin": "7.1.0",
+      "gulp-livereload": "^4.0.1",
+      "gulp-merge": "^0.1.1",
+      "gulp-rename": "^1.2.2",
+      "gulp-sourcemaps": "^2.6.5",
+      "gulp-strip-comments": "^2.5.2",
+      "gulp-svg-sprite": "1.5.0",
+      "gulp-uglify": "^3.0.2"
+   },
+   "devDependencies": {
+      "@babel/core": "^7.4.5",
+      "@babel/preset-env": "^7.4.5",
+      "gulp": "^4.0.2",
+      "gulp-babel": "^8.0.0",
+      "gulp-concat": "^2.6.1",
+      "gulp-sass": "4.0.2",
+      "gulp-csso": "^3.0.1",
+      "svg4everybody": "2.1.9",
+      "bootstrap": "4.6.0",
+      "normalize.css": "^8.0.0"
+   }
+}
