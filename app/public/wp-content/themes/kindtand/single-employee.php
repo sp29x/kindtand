@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 single employee
-http://forsyningsservice.local/employee/signe/
+http://kindtand.local/employee/signe/
 
 <?php site_nav(); ?>
 

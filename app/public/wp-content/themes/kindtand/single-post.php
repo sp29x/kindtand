@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 single nyhed
-http://forsyningsservice.local/nyhed-2/
+http://kindtand.local/nyhed-2/
 
 <?php site_nav(); ?>
 

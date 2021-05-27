@@ -4,7 +4,7 @@
 <?php site_nav(); ?>
 
 Home
-http://forsyningsservice.local/nyheder/
+http://kindtand.local/nyheder/
 
  <?php
 

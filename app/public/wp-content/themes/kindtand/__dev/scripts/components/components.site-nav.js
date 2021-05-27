@@ -1,7 +1,7 @@
 'use strict';
-var forsyningsservice = forsyningsservice || {};
+var kindtand = kindtand || {};
 
-forsyningsservice.navigation = forsyningsservice.navigation || function () {
+kindtand.navigation = kindtand.navigation || function () {
 
 	function init() {
 		const site_nav = document.getElementById('js-site-nav');
