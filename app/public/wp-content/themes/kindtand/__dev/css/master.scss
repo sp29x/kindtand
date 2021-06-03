@@ -17,11 +17,16 @@
 @import 'base/base.fonts';
 @import 'base/base.forms';
 
+/* Layout
+********************/
+@import 'layout/layout';
+
 
 /* Blocks
 ********************/
 @import 'components/blocks/blocks.general';
 @import 'components/blocks/blocks.spacer';
+@import 'components/blocks/blocks.hero';
 
 
 /* Components

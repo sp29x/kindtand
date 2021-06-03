@@ -1,11 +1,11 @@
 {
-    "key": "group_60a771a7138cd",
-    "title": "Top Banner",
+    "key": "group_60b0a594cb873",
+    "title": "Hero",
     "fields": [
         {
-            "key": "field_60a771bfaba34",
+            "key": "field_60b0a59ab169d",
             "label": "Title",
-            "name": "topBannerTitle",
+            "name": "heroTitle",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -22,43 +22,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_60a771ccaba35",
-            "label": "Text",
-            "name": "topBannertext",
-            "type": "textarea",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
-        },
-        {
-            "key": "field_60a771d8aba36",
-            "label": "Link",
-            "name": "topBannerLink",
-            "type": "link",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "array"
-        },
-        {
-            "key": "field_60a771faaba37",
-            "label": "Image",
-            "name": "topBannerImage",
+            "key": "field_60b0a5ad6fecb",
+            "label": "Baggrundsbillede",
+            "name": "heroBackgroundImage",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -78,6 +44,41 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_60b0a7ec86e7e",
+            "label": "Video",
+            "name": "heroVideo",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_60b0a84f20d27",
+            "label": "Video url",
+            "name": "heroVideoUrl",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
         }
     ],
     "location": [
@@ -86,13 +87,6 @@
                 "param": "post_type",
                 "operator": "==",
                 "value": "page"
-            }
-        ],
-        [
-            {
-                "param": "post_type",
-                "operator": "==",
-                "value": "employee"
             }
         ]
     ],
@@ -104,5 +98,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1621935052
+    "modified": 1622190172
 }

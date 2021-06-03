@@ -14,5 +14,3 @@
 </head>
 
 <main>
-
-    <h1>Header</h1>

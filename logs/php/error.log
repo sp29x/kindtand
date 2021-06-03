@@ -1,0 +1,550 @@
+[28-May-2021 08:24:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 22
+[28-May-2021 08:26:29 UTC] PHP Warning:  Use of undefined constant heroVideoUrl - assumed 'heroVideoUrl' (this will throw an Error in a future version of PHP) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 21
+[28-May-2021 08:26:29 UTC] PHP Stack trace:
+[28-May-2021 08:26:29 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 08:26:29 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 08:26:29 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 08:26:29 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 08:26:29 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 08:26:29 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 08:26:29 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 08:26:29 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 08:28:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:31:39 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting '(' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:32:03 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:33:04 UTC] PHP Parse error:  syntax error, unexpected '$heroVideoUrl' (T_VARIABLE), expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:33:20 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:33:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:35:03 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:35:47 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:35:57 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:01 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:10 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:15 UTC] PHP Parse error:  syntax error, unexpected ')', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:15 UTC] PHP Parse error:  syntax error, unexpected ')', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:31 UTC] PHP Parse error:  syntax error, unexpected '$heroVideoUrl' (T_VARIABLE), expecting '(' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:32 UTC] PHP Parse error:  syntax error, unexpected '$heroVideoUrl' (T_VARIABLE), expecting '(' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:37 UTC] PHP Parse error:  syntax error, unexpected '$heroVideoUrl' (T_VARIABLE), expecting '(' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:37 UTC] PHP Parse error:  syntax error, unexpected '$heroVideoUrl' (T_VARIABLE), expecting '(' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:42 UTC] PHP Parse error:  syntax error, unexpected '$heroVideoUrl' (T_VARIABLE), expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:36:42 UTC] PHP Parse error:  syntax error, unexpected '$heroVideoUrl' (T_VARIABLE), expecting ':' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 23
+[28-May-2021 08:43:31 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 33
+[28-May-2021 08:47:39 UTC] PHP Parse error:  syntax error, unexpected 'image' (T_STRING), expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 14
+[28-May-2021 08:47:47 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 14
+[28-May-2021 08:47:47 UTC] PHP Stack trace:
+[28-May-2021 08:47:47 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 08:47:47 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 08:47:47 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 08:47:47 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 08:47:47 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 08:47:47 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 08:47:47 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 08:47:47 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 08:47:47 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php:14
+Stack trace:
+#0 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(732): require()
+#1 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(676): load_template('/Users/29x/Docu...', false, Array)
+#2 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php(3): get_template_part('partials/blocks...', 'hero')
+#4 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php(106): include('/Users/29x/Docu...')
+#5 /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php(19): require_once('/Users/29x/Docu...')
+#6 /Users/29x/Documents/projects/kindtand/app/public/index.php(17): require('/Users/29x/Docu...')
+#7 {main}
+  th in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 14
+[28-May-2021 08:47:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 15
+[28-May-2021 08:50:26 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 08:50:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 08:50:40 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 08:51:00 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 08:51:04 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 08:51:05 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 08:51:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function filepro_fieldname() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php:24
+Stack trace:
+#0 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(732): require()
+#1 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(676): load_template('/Users/29x/Docu...', false, Array)
+#2 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php(3): get_template_part('partials/blocks...', 'hero')
+#4 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php(106): include('/Users/29x/Docu...')
+#5 /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php(19): require_once('/Users/29x/Docu...')
+#6 /Users/29x/Documents/projects/kindtand/app/public/index.php(17): require('/Users/29x/Doc in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 08:54:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 18
+[28-May-2021 08:54:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 18
+[28-May-2021 08:54:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 18
+[28-May-2021 08:56:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 18
+[28-May-2021 08:56:50 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 18
+[28-May-2021 09:04:13 UTC] PHP Warning:  Use of undefined constant §heroVideo - assumed '§heroVideo' (this will throw an Error in a future version of PHP) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:04:13 UTC] PHP Stack trace:
+[28-May-2021 09:04:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:04:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:04:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:04:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:04:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:04:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:04:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:04:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:04:13 UTC] PHP Warning:  Illegal string offset 'filename' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:04:13 UTC] PHP Stack trace:
+[28-May-2021 09:04:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:04:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:04:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:04:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:04:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:04:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:04:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:04:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:04:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:04:13 UTC] PHP Stack trace:
+[28-May-2021 09:04:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:04:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:04:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:04:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:04:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:04:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:04:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:04:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:04:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:04:13 UTC] PHP Stack trace:
+[28-May-2021 09:04:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:04:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:04:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:04:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:04:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:04:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:04:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:04:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:04:21 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:04:21 UTC] PHP Stack trace:
+[28-May-2021 09:04:21 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:04:21 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:04:21 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:04:21 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:04:21 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:04:21 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:04:21 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:04:21 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:04:21 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:04:21 UTC] PHP Stack trace:
+[28-May-2021 09:04:21 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:04:21 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:04:21 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:04:21 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:04:21 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:04:21 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:04:21 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:04:21 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:04:32 UTC] PHP Parse error:  syntax error, unexpected '=' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:05:23 UTC] PHP Parse error:  syntax error, unexpected '=' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:05:32 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:05:32 UTC] PHP Stack trace:
+[28-May-2021 09:05:32 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:32 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:32 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:32 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:32 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:32 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:32 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:32 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:32 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:05:32 UTC] PHP Stack trace:
+[28-May-2021 09:05:32 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:32 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:32 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:32 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:32 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:32 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:32 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:32 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:32 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:05:32 UTC] PHP Stack trace:
+[28-May-2021 09:05:32 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:32 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:32 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:32 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:32 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:32 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:32 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:32 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:32 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:05:32 UTC] PHP Stack trace:
+[28-May-2021 09:05:32 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:32 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:32 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:32 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:32 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:32 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:32 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:32 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:47 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:05:47 UTC] PHP Stack trace:
+[28-May-2021 09:05:47 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:47 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:47 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:47 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:47 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:47 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:47 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:47 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:47 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:05:47 UTC] PHP Stack trace:
+[28-May-2021 09:05:47 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:47 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:47 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:47 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:47 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:47 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:47 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:47 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:47 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:05:47 UTC] PHP Stack trace:
+[28-May-2021 09:05:47 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:47 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:47 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:47 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:47 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:47 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:47 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:47 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:47 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:05:47 UTC] PHP Stack trace:
+[28-May-2021 09:05:47 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:47 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:47 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:47 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:47 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:47 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:47 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:47 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:59 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:05:59 UTC] PHP Stack trace:
+[28-May-2021 09:05:59 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:59 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:59 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:59 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:59 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:59 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:59 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:59 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:05:59 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:05:59 UTC] PHP Stack trace:
+[28-May-2021 09:05:59 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:05:59 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:05:59 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:05:59 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:05:59 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:05:59 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:05:59 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:05:59 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:06:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:06:00 UTC] PHP Stack trace:
+[28-May-2021 09:06:00 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:06:00 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:06:00 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:06:00 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:06:00 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:06:00 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:06:00 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:06:00 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:06:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:06:00 UTC] PHP Stack trace:
+[28-May-2021 09:06:00 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:06:00 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:06:00 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:06:00 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:06:00 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:06:00 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:06:00 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:06:00 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:07:39 UTC] PHP Warning:  Use of undefined constant site_path - assumed 'site_path' (this will throw an Error in a future version of PHP) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:07:39 UTC] PHP Stack trace:
+[28-May-2021 09:07:39 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:07:39 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:07:39 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:07:39 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:07:39 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:07:39 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:07:39 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:07:39 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:07:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_path() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php:24
+Stack trace:
+#0 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(732): require()
+#1 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(676): load_template('/Users/29x/Docu...', false, Array)
+#2 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php(3): get_template_part('partials/blocks...', 'hero')
+#4 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php(106): include('/Users/29x/Docu...')
+#5 /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php(19): require_once('/Users/29x/Docu...')
+#6 /Users/29x/Documents/projects/kindtand/app/public/index.php(17): require('/Users/29x/Docu...')
+# in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:09:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:09:13 UTC] PHP Stack trace:
+[28-May-2021 09:09:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:09:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:09:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:09:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:09:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:09:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:09:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:09:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:09:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:09:13 UTC] PHP Stack trace:
+[28-May-2021 09:09:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:09:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:09:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:09:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:09:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:09:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:09:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:09:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:09:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:09:13 UTC] PHP Stack trace:
+[28-May-2021 09:09:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:09:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:09:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:09:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:09:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:09:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:09:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:09:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:09:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:09:13 UTC] PHP Stack trace:
+[28-May-2021 09:09:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:09:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:09:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:09:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:09:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:09:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:09:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:09:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:09:59 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:09:59 UTC] PHP Stack trace:
+[28-May-2021 09:09:59 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:09:59 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:09:59 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:09:59 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:09:59 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:09:59 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:09:59 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:09:59 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:09:59 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:09:59 UTC] PHP Stack trace:
+[28-May-2021 09:09:59 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:09:59 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:09:59 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:09:59 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:09:59 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:09:59 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:09:59 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:09:59 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:09:59 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:09:59 UTC] PHP Stack trace:
+[28-May-2021 09:09:59 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:09:59 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:09:59 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:09:59 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:09:59 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:09:59 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:09:59 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:09:59 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:09:59 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:09:59 UTC] PHP Stack trace:
+[28-May-2021 09:09:59 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:09:59 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:09:59 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:09:59 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:09:59 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:09:59 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:09:59 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:09:59 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:10:08 UTC] PHP Stack trace:
+[28-May-2021 09:10:08 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:08 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:08 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:08 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:08 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:08 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:08 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:08 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:10:08 UTC] PHP Stack trace:
+[28-May-2021 09:10:08 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:08 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:08 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:08 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:08 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:08 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:08 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:08 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:10:08 UTC] PHP Stack trace:
+[28-May-2021 09:10:08 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:08 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:08 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:08 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:08 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:08 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:08 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:08 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:10:08 UTC] PHP Stack trace:
+[28-May-2021 09:10:08 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:08 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:08 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:08 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:08 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:08 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:08 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:08 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:10:08 UTC] PHP Stack trace:
+[28-May-2021 09:10:08 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:08 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:08 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:08 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:08 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:08 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:08 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:08 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 26
+[28-May-2021 09:10:08 UTC] PHP Stack trace:
+[28-May-2021 09:10:08 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:08 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:08 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:08 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:08 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:08 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:08 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:08 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:10:13 UTC] PHP Stack trace:
+[28-May-2021 09:10:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:10:13 UTC] PHP Stack trace:
+[28-May-2021 09:10:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:13 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:13 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:13 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:13 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:13 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:13 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:13 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:14 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:10:14 UTC] PHP Stack trace:
+[28-May-2021 09:10:14 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:14 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:14 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:14 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:14 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:14 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:14 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:14 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:10:14 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:10:14 UTC] PHP Stack trace:
+[28-May-2021 09:10:14 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:10:14 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:10:14 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:10:14 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:10:14 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:10:14 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:10:14 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:10:14 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:15:29 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:15:29 UTC] PHP Stack trace:
+[28-May-2021 09:15:29 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:15:29 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:15:29 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:15:29 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:15:29 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:15:29 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:15:29 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:15:29 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:15:29 UTC] PHP Warning:  A non-numeric value encountered in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:15:29 UTC] PHP Stack trace:
+[28-May-2021 09:15:29 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:15:29 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:15:29 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:15:29 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:15:29 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:15:29 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:15:29 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:15:29 UTC] PHP   8. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[28-May-2021 09:15:35 UTC] PHP Fatal error:  Can't use function return value in write context in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:15:35 UTC] PHP Stack trace:
+[28-May-2021 09:15:35 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[28-May-2021 09:15:35 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[28-May-2021 09:15:35 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[28-May-2021 09:15:35 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[28-May-2021 09:15:35 UTC] PHP   5. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[28-May-2021 09:15:35 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[28-May-2021 09:15:35 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[28-May-2021 09:15:46 UTC] PHP Parse error:  syntax error, unexpected '$heroVideo' (T_VARIABLE) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:15:51 UTC] PHP Parse error:  syntax error, unexpected '$heroVideo' (T_VARIABLE) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:15:51 UTC] PHP Parse error:  syntax error, unexpected '$heroVideo' (T_VARIABLE) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 25
+[28-May-2021 09:18:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php:24
+Stack trace:
+#0 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(732): require()
+#1 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(676): load_template('/Users/29x/Docu...', false, Array)
+#2 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php(3): get_template_part('partials/blocks...', 'hero')
+#4 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php(106): include('/Users/29x/Docu...')
+#5 /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php(19): require_once('/Users/29x/Docu...')
+#6 /Users/29x/Documents/projects/kindtand/app/public/index.php(17): require('/Users/29x/Docu...')
+#7 in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php:24
+Stack trace:
+#0 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(732): require()
+#1 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(676): load_template('/Users/29x/Docu...', false, Array)
+#2 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php(3): get_template_part('partials/blocks...', 'hero')
+#4 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php(106): include('/Users/29x/Docu...')
+#5 /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php(19): require_once('/Users/29x/Docu...')
+#6 /Users/29x/Documents/projects/kindtand/app/public/index.php(17): require('/Users/29x/Docu...')
+#7 in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[28-May-2021 09:18:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php:24
+Stack trace:
+#0 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(732): require()
+#1 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php(676): load_template('/Users/29x/Docu...', false, Array)
+#2 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php(3): get_template_part('partials/blocks...', 'hero')
+#4 /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php(106): include('/Users/29x/Docu...')
+#5 /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php(19): require_once('/Users/29x/Docu...')
+#6 /Users/29x/Documents/projects/kindtand/app/public/index.php(17): require('/Users/29x/Docu...')
+#7 in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-hero.php on line 24
+[29-May-2021 06:43:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php on line 175
+[29-May-2021 06:43:35 UTC] PHP Stack trace:
+[29-May-2021 06:43:35 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-cron.php:0
+[29-May-2021 06:43:35 UTC] PHP   2. do_action_ref_array() /Users/29x/Documents/projects/kindtand/app/public/wp-cron.php:138
+[29-May-2021 06:43:35 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:551
+[29-May-2021 06:43:35 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[29-May-2021 06:43:35 UTC] PHP   5. wp_version_check() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[29-May-2021 06:43:35 UTC] PHP   6. trigger_error() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php:175
+[29-May-2021 06:43:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php on line 410
+[29-May-2021 06:43:35 UTC] PHP Stack trace:
+[29-May-2021 06:43:35 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-cron.php:0
+[29-May-2021 06:43:35 UTC] PHP   2. do_action_ref_array() /Users/29x/Documents/projects/kindtand/app/public/wp-cron.php:138
+[29-May-2021 06:43:35 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:551
+[29-May-2021 06:43:35 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[29-May-2021 06:43:35 UTC] PHP   5. wp_update_plugins() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[29-May-2021 06:43:35 UTC] PHP   6. trigger_error() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php:410
+[29-May-2021 06:43:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php on line 614
+[29-May-2021 06:43:35 UTC] PHP Stack trace:
+[29-May-2021 06:43:35 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-cron.php:0
+[29-May-2021 06:43:35 UTC] PHP   2. do_action_ref_array() /Users/29x/Documents/projects/kindtand/app/public/wp-cron.php:138
+[29-May-2021 06:43:35 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:551
+[29-May-2021 06:43:35 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[29-May-2021 06:43:35 UTC] PHP   5. wp_update_themes() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[29-May-2021 06:43:35 UTC] PHP   6. trigger_error() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php:614
+[31-May-2021 05:59:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php on line 175
+[31-May-2021 05:59:04 UTC] PHP Stack trace:
+[31-May-2021 05:59:04 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-cron.php:0
+[31-May-2021 05:59:04 UTC] PHP   2. do_action_ref_array() /Users/29x/Documents/projects/kindtand/app/public/wp-cron.php:138
+[31-May-2021 05:59:04 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:551
+[31-May-2021 05:59:04 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[31-May-2021 05:59:04 UTC] PHP   5. wp_version_check() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[31-May-2021 05:59:04 UTC] PHP   6. trigger_error() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php:175
