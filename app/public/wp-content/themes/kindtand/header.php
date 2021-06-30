@@ -12,5 +12,12 @@
 
     <?php wp_head(); ?>
 </head>
+<div class="site">
+    <input type="checkbox" id="input-toggle__site-nav" name="input-toggle__site-nav" autocomplete="off" hidden="">
 
-<main>
+    <?php get_template_part( 'partials/site/site', 'header' ); ?>
+
+    <main class="site-content" role="main">
+        <?php get_template_part( 'partials/parts/page', 'topbanner' ); ?>
+
+        <div class="container container-xxl">

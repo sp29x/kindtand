@@ -548,3 +548,230 @@ Stack trace:
 [31-May-2021 05:59:04 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
 [31-May-2021 05:59:04 UTC] PHP   5. wp_version_check() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
 [31-May-2021 05:59:04 UTC] PHP   6. trigger_error() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/update.php:175
+[30-Jun-2021 07:31:44 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:31:44 UTC] PHP Stack trace:
+[30-Jun-2021 07:31:44 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:31:44 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:31:44 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:31:44 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:31:44 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:31:44 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:31:44 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:31:44 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:31:44 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:31:44 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:31:44 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:31:44 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:32:27 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:32:27 UTC] PHP Stack trace:
+[30-Jun-2021 07:32:27 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:32:27 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:32:27 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:32:27 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:32:27 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:32:27 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:32:27 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:32:27 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:32:27 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:32:27 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:32:27 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:32:27 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:32:37 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:32:37 UTC] PHP Stack trace:
+[30-Jun-2021 07:32:37 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:32:37 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:32:37 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:32:37 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:32:37 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:32:37 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:32:37 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:32:37 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:32:37 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:32:37 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:32:37 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:32:37 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:32:55 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:32:55 UTC] PHP Stack trace:
+[30-Jun-2021 07:32:55 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:32:55 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:32:55 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:32:55 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:32:55 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:32:55 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:32:55 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:32:55 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:32:55 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:32:55 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:32:55 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:32:55 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:33:31 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:33:31 UTC] PHP Stack trace:
+[30-Jun-2021 07:33:31 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:33:31 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:33:31 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:33:31 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:33:31 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:33:31 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:33:31 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:33:31 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:33:31 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:33:31 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:33:31 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:33:31 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:34:18 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:34:18 UTC] PHP Stack trace:
+[30-Jun-2021 07:34:18 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:34:18 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:34:18 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:34:18 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:34:18 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:34:18 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:34:18 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:34:18 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:34:18 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:34:18 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:34:18 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:34:18 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:35:35 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:35:35 UTC] PHP Stack trace:
+[30-Jun-2021 07:35:35 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:35:35 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:35:35 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:35:35 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:35:35 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:35:35 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:35:35 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:35:35 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:35:35 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:35:35 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:35:35 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:35:35 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:35:36 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:35:36 UTC] PHP Stack trace:
+[30-Jun-2021 07:35:36 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:35:36 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:35:36 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:35:36 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:35:36 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:35:36 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:35:36 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:35:36 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:35:36 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:35:36 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:35:36 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:35:36 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:35:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 36
+[30-Jun-2021 07:36:00 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 21
+[30-Jun-2021 07:36:00 UTC] PHP Stack trace:
+[30-Jun-2021 07:36:00 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:36:00 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:36:00 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:36:00 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:36:00 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:36:00 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:36:00 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:36:00 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:36:00 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:36:00 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:36:00 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:36:00 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:36:18 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 33
+[30-Jun-2021 07:36:18 UTC] PHP Stack trace:
+[30-Jun-2021 07:36:18 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:36:18 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:36:18 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:36:18 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:36:18 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:36:18 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:36:18 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:36:18 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:36:18 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:36:18 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:36:18 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:36:18 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:36:19 UTC] PHP Warning:  Illegal string offset 'url' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 33
+[30-Jun-2021 07:36:19 UTC] PHP Stack trace:
+[30-Jun-2021 07:36:19 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 07:36:19 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 07:36:19 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 07:36:19 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 07:36:19 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:1
+[30-Jun-2021 07:36:19 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 07:36:19 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:36:19 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 07:36:19 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:20
+[30-Jun-2021 07:36:19 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 07:36:19 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 07:36:19 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 07:42:25 UTC] PHP Parse error:  syntax error, unexpected '$postsPageId' (T_VARIABLE), expecting ',' or ';' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/parts/page-topbanner.php on line 3
+[30-Jun-2021 11:09:39 UTC] PHP Warning:  Use of undefined constant siteHeaderBookLink - assumed 'siteHeaderBookLink' (this will throw an Error in a future version of PHP) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/site/site-header.php on line 23
+[30-Jun-2021 11:09:39 UTC] PHP Stack trace:
+[30-Jun-2021 11:09:39 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 11:09:39 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 11:09:39 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 11:09:39 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 11:09:39 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/page.php:1
+[30-Jun-2021 11:09:39 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 11:09:39 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:09:39 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 11:09:39 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:18
+[30-Jun-2021 11:09:39 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 11:09:39 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:09:39 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 11:09:39 UTC] PHP Warning:  Illegal string offset 'target' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/site/site-header.php on line 23
+[30-Jun-2021 11:09:39 UTC] PHP Stack trace:
+[30-Jun-2021 11:09:39 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 11:09:39 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 11:09:39 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 11:09:39 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 11:09:39 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/page.php:1
+[30-Jun-2021 11:09:39 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 11:09:39 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:09:39 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 11:09:39 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:18
+[30-Jun-2021 11:09:39 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 11:09:39 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:09:39 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 11:09:46 UTC] PHP Warning:  Use of undefined constant siteHeaderBookLink - assumed 'siteHeaderBookLink' (this will throw an Error in a future version of PHP) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/site/site-header.php on line 23
+[30-Jun-2021 11:09:46 UTC] PHP Stack trace:
+[30-Jun-2021 11:09:46 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 11:09:46 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 11:09:46 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 11:09:46 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 11:09:46 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/page.php:1
+[30-Jun-2021 11:09:46 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 11:09:46 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:09:46 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 11:09:46 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:18
+[30-Jun-2021 11:09:46 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 11:09:46 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:09:46 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 11:09:46 UTC] PHP Warning:  Illegal string offset 'target' in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/site/site-header.php on line 23
+[30-Jun-2021 11:09:46 UTC] PHP Stack trace:
+[30-Jun-2021 11:09:46 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 11:09:46 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 11:09:46 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 11:09:46 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 11:09:46 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/page.php:1
+[30-Jun-2021 11:09:46 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 11:09:46 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:09:46 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 11:09:46 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:18
+[30-Jun-2021 11:09:46 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 11:09:46 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:09:46 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 11:13:22 UTC] PHP Warning:  Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/site/site-header.php on line 25
+[30-Jun-2021 11:13:22 UTC] PHP Stack trace:
+[30-Jun-2021 11:13:22 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[30-Jun-2021 11:13:22 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[30-Jun-2021 11:13:22 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[30-Jun-2021 11:13:22 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[30-Jun-2021 11:13:22 UTC] PHP   5. get_header() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/page.php:1
+[30-Jun-2021 11:13:22 UTC] PHP   6. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:48
+[30-Jun-2021 11:13:22 UTC] PHP   7. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:13:22 UTC] PHP   8. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:730
+[30-Jun-2021 11:13:22 UTC] PHP   9. get_template_part() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/header.php:18
+[30-Jun-2021 11:13:22 UTC] PHP  10. locate_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/general-template.php:204
+[30-Jun-2021 11:13:22 UTC] PHP  11. load_template() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:676
+[30-Jun-2021 11:13:22 UTC] PHP  12. require() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template.php:732
+[30-Jun-2021 11:16:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/site/site-header.php on line 59

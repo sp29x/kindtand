@@ -7,6 +7,7 @@
 /* Settings
 ********************/
 @import 'settings/settings.variables';
+@import 'settings/settings.grid';
 
 
 /* Base
@@ -26,7 +27,6 @@
 ********************/
 @import 'components/blocks/blocks.general';
 @import 'components/blocks/blocks.spacer';
-@import 'components/blocks/blocks.hero';
 
 
 /* Components
@@ -44,6 +44,10 @@
 		********************/
 		@import 'components/site/header/header.actions';
 		@import 'components/site/header/header.site-nav';
+
+		/* Parts
+		********************/
+		@import 'components/site/parts/parts.topbanner';
 
 /* Views
 ********************/

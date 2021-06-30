@@ -44,7 +44,8 @@
 				transition: transform .3s;
 			}
 
-			&:hover {
+			&:hover,
+			&:focus {
 				svg {
 					transform: scale(1.3);
 				}

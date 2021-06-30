@@ -18,18 +18,18 @@ button {
 	outline: none;
 	text-decoration: none;
 	position: relative;
-	background: $color-primary;
+	background: transparent;
 	background-image: none;
 	font-weight: $base-font-weight;
 	font-size: $base-font-size;
 	color: $color-text;
 	line-height: $base-line-height;
-	border: 2px solid $color-primary;
+	border: 1px solid $color-brown;
 	border-radius: 0;
-	padding-top: 12px;
-	padding-bottom: 13px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
 	transition: all .3s;
 
 	&:hover,

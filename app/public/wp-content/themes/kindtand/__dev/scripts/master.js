@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
         svg4everybody(); // Fix SVG spritemap in IE/Edge
     });
 
-    kindtand.navigation.init();
+    // kindtand.navigation.init();
     
 });
 

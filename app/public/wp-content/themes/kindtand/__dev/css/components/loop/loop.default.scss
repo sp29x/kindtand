@@ -42,7 +42,8 @@
 		transition: transform .5s, opacity .5s;
 	}
 
-	&:hover {
+	&:hover,
+	&:focus {
 		&:before {
 			opacity: 1;
 			transform: scale(1);
