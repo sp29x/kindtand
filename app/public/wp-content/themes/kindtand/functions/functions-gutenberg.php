@@ -27,10 +27,10 @@ add_action('init', function() {
 });
 
 add_theme_support( 'align-wide' );
+add_theme_support( 'align-small' );
 add_theme_support( 'editor-styles' );
 add_theme_support( 'custom-spacing' );
 add_theme_support( 'responsive-embeds' );
-
 
 // Import all blocks from functions file
 require 'functions-blocks.php';
