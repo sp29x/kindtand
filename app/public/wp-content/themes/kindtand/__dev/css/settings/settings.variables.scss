@@ -6,7 +6,9 @@ $color-gray-light:              #F1F1F1;
 $color-white:                   #ffffff;
 $color-black: 					#000000;
 $color-green-neon:				#29f29f;
-$color-brown:					#BC947B;
+$color-brown-dark:				#BC947B;
+$color-brown-light:				#D0B4A3;
+$color-gray-dark:				#707070;
 
 $color-primary:					$color-green-neon;
 $color-secondary: 				$color-gray-dark;
@@ -30,4 +32,5 @@ $header-line-height:			1.1;
 /* Layout
 ********************/
 $site-background-color: 		$color-white;
-$site-max-width:				2400px;
+$site-max-width:		 		1600px;
+$container-width:				650px;

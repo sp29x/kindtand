@@ -24,8 +24,8 @@ button {
 	font-size: $base-font-size;
 	color: $color-text;
 	line-height: $base-line-height;
-	border: 1px solid $color-brown;
-	border-radius: 0;
+	border: 1px solid $color-brown-dark;
+	border-radius: 2px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 40px;
@@ -38,10 +38,15 @@ button {
 	    background: shade($color-primary, 10%);
 	    text-decoration: none;
 	    outline: none;
+	    background-color: $color-brown-dark;
 	}
 
 	&[disabled],
 	[disabled] & { cursor: not-allowed; }
+
+	&--white {
+		color: #fff;
+	}
 
 	&--primary {
 	    background: $color-primary;

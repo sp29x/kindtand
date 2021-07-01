@@ -30,6 +30,12 @@ body {
 
 .no-scroll { overflow: hidden; }
 
+.site {
+    max-width: $site-max-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .image-cover {
     img { 
