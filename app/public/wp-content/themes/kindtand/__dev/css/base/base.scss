@@ -35,6 +35,12 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 130px;
+
+
+    @include media-breakpoint-up(lg) {
+        padding-top: 160px;
+    }
 }
 
 .image-cover {

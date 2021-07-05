@@ -1,18 +1,10 @@
-<div class="topbanner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/__dist/images/topbanner-frontpage.png');" id="js-topbanner">
-	
-</div>
-
-
-
 <?php
-	$postsPageId;
 
-	if( is_home() && get_option( 'page_for_posts' ) ) { 
-		$postsPageId = get_option('page_for_posts');
-	}
+$value = get_field( "text_field" );
 
-	$topbannerImage = get_field('topbannerImage', $postsPageId);
-	$topbannerTitle = get_field('topbannerTitle');
+	$topbannerImage = get_field('pageTopbannerImage');
+	$topbannerVideo = get_field('pageTopbannerVideo');
+	$topbannerTitle = get_field('pageTopbannerTitle');
 
     $isFrontpageClass = "";
 
@@ -22,27 +14,32 @@
 ?>
 
 
-<?php if($topbannerImage) : ?>
+<?php if( $topbannerImage or $topbannerVideo ) : ?>
 
-	TOPBANNER
-
-<div class="topbanner test <?php echo $isFrontpageClass; ?>" style="background-image: url('<?php echo $imageToUse['url']; ?>;" id="js-topbanner">
-
-		<?php if(is_front_page()) : ?>
-			<div class="container container-xxl">
-				<div class="topbanner-content d-none d-lg-block">
-					<div class="topbanner-content__inner">
-						<?php if($topbannerTitle) { ?>
-							<h1 class="topbanner-content__title"><?php echo $topbannerTitle; ?></h1>
-						<?php } ?>
-					</div>
-				</div>
-			</div>
+	<div class="topbanner <?php echo $isFrontpageClass; ?>" <?php if(!$topbannerVideo) : ?> style="background-image: url('<?php echo $topbannerImage['url']; ?>;" <?php endif; ?>>
+		<?php if($topbannerVideo) : ?>
+			<video nocontrols autoplay muted loop>
+				<source src="<?php echo $topbannerVideo['url']; ?>" type="video/mp4">
+				<!-- <source src="movie.ogg" type="video/ogg"> -->
+				Your browser does not support the video tag.
+			</video>
 		<?php endif; ?>
 
+		<?php if(is_front_page()) : ?>
+			<div class="topbanner-content">
+				<?php if($topbannerTitle) : ?>
+					<h1 class="topbanner-content__title"><?php echo $topbannerTitle ?></h1>
+				<?php endif; ?>
 
+				<a href="" class="topbanner-content__video-link">
 
-
-</div>
+					<svg class="icon arrow-right__icon">
+		                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?php echo get_template_directory_uri(); ?>/__dist/icons/icons.svg#arrow-right-icon"></use>
+		            </svg>
+		            <div class="topbanner-content__video-link-text">Lær os at kende</div>
+				</a>
+			</div>
+		<?php endif; ?>
+	</div>
 
 <?php endif; ?>

@@ -1,8 +1,61 @@
 .topbanner {
 	position: relative;
 	background-repeat: no-repeat;
-	height: 875px;
+	height: 400px;
 	background-size: cover;
 	background-position: center;
 	margin-bottom: 80px;
+	overflow: hidden;
+	margin-top: -50px;
+
+	&--frontpage {
+		height: 875px;
+	}
+
+	video {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.topbanner-content {
+	position: absolute;
+	left: 50%;;
+	top: 50%;
+	width: 50%;
+	max-width: 480px;
+	transform: translateY(-50%);
+
+	&__title {
+		margin-bottom: 40px;
+	}
+
+	&__video-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: flex-start;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			.arrow-right__icon
+			 {
+				transform: translateX(8px);
+			}
+		}
+	}
+
+	.arrow-right__icon {
+		height: 11px;
+		width: 23px;
+		fill: #000;
+		margin-right: 15px;
+		transition: transform .27s ease-in-out;
+		will-change: transform;
+	}
+
+	&__video-link-text {
+		font-weight: 400;
+		line-height: 34px;
+	}
 }

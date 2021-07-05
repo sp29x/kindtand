@@ -98,11 +98,21 @@
 		&:hover,
 		&:focus {
 			&:after {
-				width: calc(100% + 20px);
+				width: calc(100% - 20px);
 				z-index: -10;	
 				animation: fill .2s forwards;
 				opacity: 1;
+				transform: translateX(20px);
 			}
+		}
+	}
+
+	&.current-menu-item {
+		a:after {
+			width: calc(100% - 20px);
+			z-index: -10;
+			opacity: 1;
+			transform: translateX(20px);
 		}
 	}
 }

@@ -1,11 +1,30 @@
 {
-    "key": "group_60dc1d6bdc49f",
-    "title": "Topbanner",
+    "key": "group_60e2e298ed090",
+    "title": "Page Topbanner",
     "fields": [
         {
-            "key": "field_60dc1d7954157",
+            "key": "field_60e2e2a1c87d5",
+            "label": "Overskrift",
+            "name": "pageTopbannerTitle",
+            "type": "text",
+            "instructions": "Vises kun på forsiden.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60e2e2afc87d6",
             "label": "Billede",
-            "name": "topbannerImage",
+            "name": "pageTopbannerImage",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -27,11 +46,11 @@
             "mime_types": ""
         },
         {
-            "key": "field_60dc1d8d54158",
-            "label": "Overskrift",
-            "name": "topbannerTitle",
-            "type": "text",
-            "instructions": "Vises kun på forsiden.",
+            "key": "field_60e2f703c8d31",
+            "label": "Video",
+            "name": "pageTopbannerVideo",
+            "type": "file",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -39,11 +58,11 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -63,5 +82,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1625038252
+    "modified": 1625487129
 }
