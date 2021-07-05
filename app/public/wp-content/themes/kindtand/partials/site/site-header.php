@@ -32,20 +32,4 @@
                 </div>
             </div>
         </div>
-        <!-- <div id="js-site-search" class="site-search">
-            <div class="container">
-                <div class="site-search__inner">
-                    <form class="site-search-form" method="get" action="" role="search">
-                        <input class="site-search-form__input" id="js-site-search-input" type="search" name="s" placeholder="Søg..." required="">
-                        <div class="site-search-form__actions">
-                            <button class="site-search-form__actions-submit button" type="submit">
-                                <svg class="icon">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?php echo get_template_directory_uri(); ?>/__dist/icons/icons.svg#search"></use>
-                                </svg>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div> -->
     </div>
