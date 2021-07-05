@@ -1,4 +1,4 @@
-<div class="topbanner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/__dist/images/topbanner-frontpage.png');">
+<div class="topbanner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/__dist/images/topbanner-frontpage.png');" id="js-topbanner">
 	
 </div>
 
@@ -26,7 +26,7 @@
 
 	TOPBANNER
 
-<div class="topbanner <?php echo $isFrontpageClass; ?>" style="background-image: url('<?php echo $imageToUse['url']; ?>;">
+<div class="topbanner test <?php echo $isFrontpageClass; ?>" style="background-image: url('<?php echo $imageToUse['url']; ?>;" id="js-topbanner">
 
 		<?php if(is_front_page()) : ?>
 			<div class="container container-xxl">

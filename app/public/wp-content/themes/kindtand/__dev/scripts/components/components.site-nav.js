@@ -7,8 +7,8 @@ kindtand.navigation = kindtand.navigation || function () {
 		const site_nav = document.getElementById('js-site-nav');
 
 		if ( site_nav ) {
-			siteNav(site_nav);
-			sub_menu_toggle(site_nav);
+			// siteNav(site_nav);
+			// sub_menu_toggle(site_nav);
 		}
 	}
 

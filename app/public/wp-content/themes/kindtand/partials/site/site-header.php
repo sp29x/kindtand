@@ -2,8 +2,8 @@
     $siteHeaderBookLink = get_field('siteHeaderBookLink', 'option');
 ?>
                     
-    <div class="site-header">
-        <div class="site-header__wrapper">
+    <div class="site-header" id="js-site-header">
+        <div class="site-header__wrapper" id="js-site-header-wrapper">
             <div class="container container-xxl">
                 <div class="site-header__inner">
                     <a href="/" class="logo" aria-label="Home link" role="link">
