@@ -24,6 +24,7 @@
 
 		.search-open__icon {
 			transition: transform .3s;
+			will-change: transform;
 		}
 		&:hover,
 		&:focus {
@@ -83,6 +84,7 @@
 		border-radius: 3px;
 		background-color: #000;
 		transition: transform .6s cubic-bezier(.68,-.55,.265,1.55),width .6s cubic-bezier(.68,-.55,.265,1.55),opacity .6s ease,-webkit-transform .6s cubic-bezier(.68,-.55,.265,1.55);
+		will-change: transform;
 
 		&:before,
 		&:after {
@@ -96,6 +98,7 @@
 			width: 15px;
 			background-color: #000;
 			transition: transform .6s cubic-bezier(.68,-.55,.265,1.55),width .6s cubic-bezier(.68,-.55,.265,1.55),opacity .6s ease,-webkit-transform .6s cubic-bezier(.68,-.55,.265,1.55);
+			will-change: transform;
 		}
 
 		&:after {

@@ -28,6 +28,7 @@
 				text-align: center;
 				opacity: .5;
 				transition: opacity .3s;
+				will-change: transform;
 
 				&:focus {
 					opacity: 1;
@@ -53,6 +54,7 @@
 				z-index: 4;
 				border: 2px solid rgba($color-primary, .03);
 				transition: background .2s;
+				will-change: transform;
 
 				&:after {
 					content: 'Spacer';
@@ -64,6 +66,7 @@
 					height: 20px;
 					opacity: .2;
 					transition: opacity .2s;
+					will-change: transform;
 				}
 
 				&:hover,

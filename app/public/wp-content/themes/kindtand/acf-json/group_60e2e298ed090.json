@@ -26,7 +26,7 @@
             "label": "Billede",
             "name": "pageTopbannerImage",
             "type": "image",
-            "instructions": "",
+            "instructions": "Hvis både video og billede er valgt, vil videoen blive vist.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -50,7 +50,7 @@
             "label": "Video",
             "name": "pageTopbannerVideo",
             "type": "file",
-            "instructions": "",
+            "instructions": "Hvis både video og billede er valgt, vil videoen blive vist.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -82,5 +82,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1625487129
+    "modified": 1626177301
 }

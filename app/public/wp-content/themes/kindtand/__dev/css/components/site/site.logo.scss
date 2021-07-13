@@ -6,6 +6,7 @@
 		height: 35px;
 		width: auto;
 		transition: height .5s;
+		will-change: transform;
 
 		@include media-breakpoint-up(md) {
 			height: 45px;

@@ -10,7 +10,7 @@
 ?>
 
 
-<footer class="site-footer">
+<footer class="site-footer" aria-label="Footer">
 
     <?php if($facebookLink) : ?>
         <a href="<?php echo $facebookLink['url']; ?>" target="<?php echo $facebookLink['target']; ?>" class="site-footer-some">

@@ -23,6 +23,7 @@
 		border: 2px solid $color-primary;
 		color: $color-black;
 		transition: color .2s, box-shadow .2s;
+		will-change: transform;
 
 		&.dots {
 			border: none;
@@ -42,6 +43,7 @@
 				width: 20px;
 				fill: $color-primary;
 				transition: transform .3s;
+				will-change: transform;
 			}
 
 			&:hover,
