@@ -7,7 +7,8 @@
             <div class="container container-xxl">
                 <div class="site-header__inner">
                     <a href="/" class="logo" aria-label="Home link" role="link">
-                        <img src="<?php echo get_template_directory_uri(); ?>/__dist/images/logo.svg"/>
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/__dist/images/logo.svg"/> -->
+                        Kindtand
                     </a>
                     <div class="site-header__action-wrapper">
                         <nav id="js-site-nav" class="site-nav" role="navigation">

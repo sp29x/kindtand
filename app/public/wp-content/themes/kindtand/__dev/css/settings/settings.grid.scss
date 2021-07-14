@@ -1,3 +1,7 @@
+.container {
+	max-width: $container-width;
+}
+
 .container-xxl {
-	max-width: 1400px;
+	max-width: $site-max-width;
 }

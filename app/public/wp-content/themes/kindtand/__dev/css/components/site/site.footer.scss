@@ -78,24 +78,27 @@
 .site-footer-content {
 	background-color: $color-brown-light;
 	width: 100%;
-	/*padding: 95px 50px;*/
 	display: flex;
-	/*flex-direction: column;*/
 	justify-content: space-between;
-	padding: 0 0 50px 50px;
 	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 0 25px 25px 25px;
 
 	@include media-breakpoint-up(lg) {
 		padding: 0 80px 95px 50px;
-		/*flex-direction: row;*/
+		flex-direction: row;
 	}
 
 	&__col {
-		margin-top: 90px;
-		max-width: 300px;
+		margin-top: 50px;
 		flex-grow: 0;
 		flex-shrink: 0;
-		padding-right: 50px;
+
+		@include media-breakpoint-up(lg) {
+			max-width: 300px;
+			padding-right: 50px;
+			margin-top: 90px;
+		}
 	}
 
 	&__title {

@@ -6,9 +6,10 @@
 	@include media-breakpoint-up(lg) {
 		margin-bottom: 60px;
 	}
+	
 
 	&.alignwide {
-		max-width: 940px;
+		max-width: $container-wide-width;
 	}
 
 	&.alignfull {
@@ -28,6 +29,11 @@
 
 .wp-block-image {
 	margin: 0;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
 }
 
 .wp-block-video {
@@ -47,4 +53,32 @@
 
 .wp-block {
 	font-family: $base-font-family;
+}
+
+.wp-block-quote {
+	position: relative;
+	margin: 20px 0 0 0;
+
+	&:before {
+		content: '“';
+		position: absolute;
+		top: -65px;
+		left: -5px;
+		font-weight: 100;
+		font-family: Arial Rounded MT Bold;
+		font-size: 100px;
+		line-height: 106px;
+		color: $color-brown-dark;
+	}
+
+	p {
+		font-size: $base-font-size;
+		font-weight: 300;
+		margin: 0 0 20px 0;
+	}
+
+	cite {
+		font-weight: 400;
+		font-style: normal;
+	}
 }

@@ -40,14 +40,26 @@
 	@import 'components/site/site.footer';
 	@import 'components/site/site.breadcrumbs';
 
-		/* Header
-		********************/
-		@import 'components/site/header/header.actions';
-		@import 'components/site/header/header.site-nav';
+	/* Header
+	********************/
+	@import 'components/site/header/header.actions';
+	@import 'components/site/header/header.site-nav';
 
-		/* Parts
-		********************/
-		@import 'components/site/parts/parts.topbanner';
+	/* Parts
+	********************/
+	@import 'components/site/parts/parts.topbanner';
+
+
+
+	/* Loops
+	********************/
+	@import 'components/site/header/header.actions';
+	@import 'components/loop/loop.service';
+
+	/* Items
+	********************/
+	@import 'components/loop/item/item.service';
+
 
 /* Views
 ********************/

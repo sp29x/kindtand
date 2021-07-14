@@ -35,7 +35,7 @@ button {
 
 	&:hover,
 	&:focus {
-	    color: var(--color-white);
+	    color: #fff;
 	    background: shade($color-primary, 10%);
 	    text-decoration: none;
 	    outline: none;
@@ -47,6 +47,12 @@ button {
 
 	&--white {
 		color: #fff;
+		border-color: $color-brown-dark;
+
+		&:hover,
+		&:focus {
+			background-color: $color-brown-dark;
+		}
 	}
 
 	&--primary {

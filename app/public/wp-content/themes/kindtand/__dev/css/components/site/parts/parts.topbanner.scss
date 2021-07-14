@@ -3,7 +3,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-bottom: 80px;
 	overflow: hidden;
 	height: 250px;
 
@@ -31,8 +30,8 @@
 	top: 50%;
 	width: 100%;
 	max-width: 480px;
-	padding: 20px;
-	transform: translateY(calc(-50% + 80px));
+	padding: 25px;
+	transform: translateY(-50%);
 
     @include media-breakpoint-up(lg) {
     	left: 50%;
@@ -42,6 +41,11 @@
 
 	&__title {
 		margin-bottom: 40px;
+
+	    @include media-breakpoint-down(md) {
+			font-size: 35px;
+			line-height: 45px;
+		}
 	}
 
 	&__video-link {
