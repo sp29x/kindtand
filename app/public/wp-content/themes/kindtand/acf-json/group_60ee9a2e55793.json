@@ -66,6 +66,21 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_60efe5e4a9a96",
+            "label": "Se alle link",
+            "name": "blockServicelistLink",
+            "type": "link",
+            "instructions": "Hvis et link er valgt vises der 3 behandlinger og en knap der linker til den valgte side.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
         }
     ],
     "location": [
@@ -85,5 +100,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1626261392
+    "modified": 1626334783
 }

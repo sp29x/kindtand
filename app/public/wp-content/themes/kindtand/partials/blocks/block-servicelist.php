@@ -13,8 +13,8 @@ if( !empty($block['anchor']) ) {
 }
 $servicelists = get_field('block_servicelist');
 $services = get_field('blockServicelistServices');
-$servicesTitle = get_field('blockServiceslistTitle');
-$servicesSeeAllText = get_field('blockServicelistSeeAllText');
+$servicelistTitle = get_field('blockServiceslistTitle');
+$servicelistLink = get_field('blockServicelistLink');
 $className = 'loop-service';
 
 if( !empty($block['className']) ) {
@@ -29,24 +29,31 @@ if( !empty($block['align']) ) {
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <?php if ( $services ) : ?>
 
-        <h2 class="loop-service__title"><?php echo $servicesTitle; ?></h2>
+        <h2 class="loop-service__title"><?php echo $servicelistTitle; ?></h2>
 
         <div class="loop-services-list">
 
-            <?php foreach( $services as $service ):
-                $serviceId = $service->ID;
-                $serviceName = get_the_title($serviceId);
-                $serviceTitle = get_fields($serviceId)['blockServiceTitle'];
+            <?php
+                foreach($services as $key => $service) :
+                    $serviceId = $service->ID;
+                    $serviceName = get_the_title($serviceId);
+                    $serviceTitle = get_fields($serviceId)['blockServiceTitle'];
             ?>
 
                 <?php get_template_part('partials/loop/item/item', 'service', $id = $serviceId); ?>
+
+                <?php
+                    if($servicelistLink && $key >= 2) {
+                        break;
+                    }
+                ?>
 
             <?php endforeach; ?>
 
         </div>
 
-        <?php if($servicesSeeAllText) : ?>
-            <button class="btn btn--white"><?php echo $servicesSeeAllText; ?></button>
+        <?php if($servicelistLink) : ?>
+            <a href="<?php echo $servicelistLink['url']; ?>" target="<?php echo $servicelistLink['target']; ?>" class="btn btn--white"><?php echo $servicelistLink['title']; ?></a>
         <?php endif; ?>
 
 

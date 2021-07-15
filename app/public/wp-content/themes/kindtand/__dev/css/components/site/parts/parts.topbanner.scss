@@ -5,16 +5,20 @@
 	background-position: center;
 	overflow: hidden;
 	height: 250px;
+	margin-bottom: 40px;
 
     @include media-breakpoint-up(lg) {
     	height: 400px;
+    	margin-bottom: 70px;
 	}
 
 	&--frontpage {
 		height: 75vh;
+		margin-bottom: 0;
 
 	    @include media-breakpoint-up(lg) {
 	    	height: 875px;
+	    	margin-bottom: 0;
 		}
 	}
 

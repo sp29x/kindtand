@@ -16,8 +16,7 @@ $value = get_field( "text_field" );
 
 <?php if( $topbannerImage or $topbannerVideo ) : ?>
 	
-	<div class="container container-xxl">
-		<div class="topbanner <?php echo $isFrontpageClass; ?>" <?php if(!$topbannerVideo) : ?> style="background-image: url('<?php echo $topbannerImage['url']; ?>;" <?php endif; ?>>
+		<header class="topbanner <?php echo $isFrontpageClass; ?>" <?php if(!$topbannerVideo) : ?> style="background-image: url('<?php echo $topbannerImage['url']; ?>;" <?php endif; ?>>
 			<?php if($topbannerVideo) : ?>
 				<video nocontrols autoplay muted loop>
 					<source src="<?php echo $topbannerVideo['url']; ?>" type="video/mp4">
@@ -41,7 +40,6 @@ $value = get_field( "text_field" );
 					</a>
 				</div>
 			<?php endif; ?>
-		</div>
-	</div>
+		</header>
 
 <?php endif; ?>
