@@ -1,5 +1,4 @@
-.block-editor {
-	.editor-styles-wrapper {
+
 		/* Settings
 		********************/
 		@import '../node_modules/bootstrap/scss/_functions';
@@ -8,12 +7,6 @@
 
 		@import 'settings/settings.variables';
 
-		font-family: $base-font-family;
-		font-weight: $base-font-weight;
-		font-size: $base-font-size;
-		color: $color-text;
-		line-height: $base-line-height;
-
 		/* Base
 		********************/
 		@import 'base/base';
@@ -21,6 +14,41 @@
 		@import 'base/base.typography';
 		@import 'base/base.fonts';
 		@import 'base/base.forms';
+
+		/* Components
+		********************/
+
+		/* Loop
+		********************/
+		@import 'components/loop/loop.default';
+
+		/* Blocks
+		********************/
+		@import 'base/base';
+		@import 'components/blocks/blocks.general';
+		@import 'base/base.fonts';
+		@import 'base/base.typography';
+
+
+		/* Loop
+		********************/
+		@import 'components/loop/loop.default';
+		@import 'components/loop/loop.service';
+		@import 'components/loop/loop.price';
+		@import 'components/loop/loop.employee';
+
+
+		/* Items
+		********************/
+		@import 'components/loop/item/item.service';
+		@import 'components/loop/item/item.price';
+		@import 'components/loop/item/item.employee';
+
+
+
+
+.block-editor {
+	.editor-styles-wrapper {
 
 		.editor-post-title {
 			&__input {
@@ -35,19 +63,9 @@
 				}
 			}
 		}
+	}
 
-		/* Components
-		********************/
-
-		/* Loop
-		********************/
-		@import 'components/loop/loop.default';
-
-		/* Blocks
-		********************/
-		@import 'components/blocks/blocks.general';
-
-		// Spacing controller
+		/* Spacing controller */
 		.wp-block-spacer {
 			> div {
 				position: relative;
@@ -98,5 +116,71 @@
 		    }
 		}
 
+}
+
+
+.block-editor .editor-styles-wrapper .wp-block[data-align="wide"] {
+			max-width: 940;
+			width: 100%;
+		}
+
+.wp-block-spacer {
+	> div {
+		position: relative;
+		z-index: 4;
+		border: 2px solid rgba($color-primary, .03);
+		transition: background .2s;
+		will-change: transform;
+
+		&:after {
+			content: 'Spacer';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			height: 20px;
+			opacity: .2;
+			transition: opacity .2s;
+			will-change: transform;
+		}
+
+		&:hover,
+		&:focus {
+			background: rgba($color-primary, .03);
+
+			&:after {
+				opacity: 1;
+			}
+		}
 	}
+
+	&.is-style {
+	    &-spacer-mobile {
+	    	> div {
+	        	&:after {
+	        		content: 'Spacer Mobile/Tablet';
+	        	}
+	    	}
+	    }
+
+	    &-spacer-desktop {
+	    	> div {
+	        	&:after {
+	        		content: 'Spacer Desktop';
+	        	}
+	    	}
+	    }
+	}
+}
+
+
+
+.wp-block[data-align='wide'] {
+	max-width: 940px;
+}
+
+.wp-block[data-align='full'] {
+	width: 100%;
+	max-width: none;
 }

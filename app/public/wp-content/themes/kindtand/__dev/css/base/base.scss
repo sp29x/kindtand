@@ -22,10 +22,6 @@ body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-   	@include media-breakpoint-up(sm) {
-        font-size: 17px;
-    }
 }
 
 .no-scroll { overflow: hidden; }

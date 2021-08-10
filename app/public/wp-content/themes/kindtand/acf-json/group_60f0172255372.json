@@ -6,7 +6,7 @@
             "key": "field_60f0173adb159",
             "label": "Medarbejdere",
             "name": "blockEmployeelistEmployees",
-            "type": "post_object",
+            "type": "relationship",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -19,10 +19,15 @@
                 "employee"
             ],
             "taxonomy": "",
-            "allow_null": 0,
-            "multiple": 1,
-            "return_format": "object",
-            "ui": 1
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "elements": "",
+            "min": "",
+            "max": "",
+            "return_format": "object"
         }
     ],
     "location": [
@@ -42,5 +47,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1626347492
+    "modified": 1628587999
 }

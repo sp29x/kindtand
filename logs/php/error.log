@@ -4385,3 +4385,348 @@ Stack trace:
 [15-Jul-2021 11:35:21 UTC] PHP  15. wpdb->query() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/wp-db.php:2615
 [15-Jul-2021 11:35:21 UTC] PHP  16. wpdb->_do_query() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/wp-db.php:1945
 [15-Jul-2021 11:35:21 UTC] PHP  17. mysqli_query() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/wp-db.php:2056
+[10-Aug-2021 08:37:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:37:38 UTC] PHP Stack trace:
+[10-Aug-2021 08:37:38 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:0
+[10-Aug-2021 08:37:38 UTC] PHP   2. do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:187
+[10-Aug-2021 08:37:38 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:484
+[10-Aug-2021 08:37:38 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:37:38 UTC] PHP   5. acf_ajax_fetch_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:37:38 UTC] PHP   6. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:612
+[10-Aug-2021 08:37:38 UTC] PHP   7. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:37:38 UTC] PHP   8. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:37:38 UTC] PHP   9. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:37:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:37:39 UTC] PHP Stack trace:
+[10-Aug-2021 08:37:39 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:0
+[10-Aug-2021 08:37:39 UTC] PHP   2. do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:187
+[10-Aug-2021 08:37:39 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:484
+[10-Aug-2021 08:37:39 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:37:39 UTC] PHP   5. acf_ajax_fetch_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:37:39 UTC] PHP   6. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:612
+[10-Aug-2021 08:37:39 UTC] PHP   7. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:37:39 UTC] PHP   8. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:37:39 UTC] PHP   9. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:37:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:37:41 UTC] PHP Stack trace:
+[10-Aug-2021 08:37:41 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[10-Aug-2021 08:37:41 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[10-Aug-2021 08:37:41 UTC] PHP   3. wp() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:16
+[10-Aug-2021 08:37:41 UTC] PHP   4. WP->main() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/functions.php:1291
+[10-Aug-2021 08:37:41 UTC] PHP   5. WP->parse_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp.php:750
+[10-Aug-2021 08:37:41 UTC] PHP   6. do_action_ref_array() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp.php:388
+[10-Aug-2021 08:37:41 UTC] PHP   7. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:551
+[10-Aug-2021 08:37:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:37:41 UTC] PHP   9. rest_api_loaded() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:37:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:354
+[10-Aug-2021 08:37:41 UTC] PHP  11. WP_REST_Server->dispatch() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[10-Aug-2021 08:37:41 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[10-Aug-2021 08:37:41 UTC] PHP  13. WP_REST_Posts_Controller->update_item() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[10-Aug-2021 08:37:41 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:881
+[10-Aug-2021 08:37:41 UTC] PHP  15. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1768
+[10-Aug-2021 08:37:41 UTC] PHP  16. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:37:41 UTC] PHP  17. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:37:41 UTC] PHP  18. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:37:41 UTC] PHP  19. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:37:41 UTC] PHP  20. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:37:41 UTC] PHP  21. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:37:41 UTC] PHP  22. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:37:41 UTC] PHP  23. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:37:41 UTC] PHP  24. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:37:41 UTC] PHP  25. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:37:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:37:41 UTC] PHP Stack trace:
+[10-Aug-2021 08:37:41 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/post.php:0
+[10-Aug-2021 08:37:41 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/post.php:187
+[10-Aug-2021 08:37:41 UTC] PHP   3. array_reduce() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/edit-form-blocks.php:82
+[10-Aug-2021 08:37:41 UTC] PHP   4. rest_preload_api_request() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/edit-form-blocks.php:82
+[10-Aug-2021 08:37:41 UTC] PHP   5. rest_do_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:2816
+[10-Aug-2021 08:37:41 UTC] PHP   6. WP_REST_Server->dispatch() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:479
+[10-Aug-2021 08:37:41 UTC] PHP   7. WP_REST_Server->respond_to_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[10-Aug-2021 08:37:41 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[10-Aug-2021 08:37:41 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[10-Aug-2021 08:37:41 UTC] PHP  10. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1768
+[10-Aug-2021 08:37:41 UTC] PHP  11. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:37:41 UTC] PHP  12. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:37:41 UTC] PHP  13. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:37:41 UTC] PHP  14. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:37:41 UTC] PHP  15. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:37:41 UTC] PHP  16. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:37:41 UTC] PHP  17. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:37:41 UTC] PHP  18. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:37:41 UTC] PHP  19. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:37:41 UTC] PHP  20. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:03 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:03 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/post.php:0
+[10-Aug-2021 08:38:03 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/post.php:187
+[10-Aug-2021 08:38:03 UTC] PHP   3. array_reduce() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/edit-form-blocks.php:82
+[10-Aug-2021 08:38:03 UTC] PHP   4. rest_preload_api_request() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/edit-form-blocks.php:82
+[10-Aug-2021 08:38:03 UTC] PHP   5. rest_do_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:2816
+[10-Aug-2021 08:38:03 UTC] PHP   6. WP_REST_Server->dispatch() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:479
+[10-Aug-2021 08:38:03 UTC] PHP   7. WP_REST_Server->respond_to_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[10-Aug-2021 08:38:03 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[10-Aug-2021 08:38:03 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[10-Aug-2021 08:38:03 UTC] PHP  10. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1768
+[10-Aug-2021 08:38:03 UTC] PHP  11. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:38:03 UTC] PHP  12. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:03 UTC] PHP  13. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:38:03 UTC] PHP  14. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:38:03 UTC] PHP  15. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:38:03 UTC] PHP  16. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:38:03 UTC] PHP  17. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:38:03 UTC] PHP  18. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:03 UTC] PHP  19. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:03 UTC] PHP  20. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:05 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:05 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:0
+[10-Aug-2021 08:38:05 UTC] PHP   2. do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:187
+[10-Aug-2021 08:38:05 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:484
+[10-Aug-2021 08:38:05 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:38:05 UTC] PHP   5. acf_ajax_fetch_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:05 UTC] PHP   6. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:612
+[10-Aug-2021 08:38:05 UTC] PHP   7. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:05 UTC] PHP   8. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:05 UTC] PHP   9. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:05 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:05 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[10-Aug-2021 08:38:05 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[10-Aug-2021 08:38:05 UTC] PHP   3. wp() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:16
+[10-Aug-2021 08:38:05 UTC] PHP   4. WP->main() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/functions.php:1291
+[10-Aug-2021 08:38:05 UTC] PHP   5. WP->parse_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp.php:750
+[10-Aug-2021 08:38:05 UTC] PHP   6. do_action_ref_array() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp.php:388
+[10-Aug-2021 08:38:05 UTC] PHP   7. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:551
+[10-Aug-2021 08:38:05 UTC] PHP   8. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:38:05 UTC] PHP   9. rest_api_loaded() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:05 UTC] PHP  10. WP_REST_Server->serve_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:354
+[10-Aug-2021 08:38:05 UTC] PHP  11. WP_REST_Server->dispatch() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[10-Aug-2021 08:38:05 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[10-Aug-2021 08:38:05 UTC] PHP  13. WP_REST_Posts_Controller->get_item() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[10-Aug-2021 08:38:05 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[10-Aug-2021 08:38:05 UTC] PHP  15. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1768
+[10-Aug-2021 08:38:05 UTC] PHP  16. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:38:05 UTC] PHP  17. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:05 UTC] PHP  18. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:38:05 UTC] PHP  19. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:38:05 UTC] PHP  20. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:38:05 UTC] PHP  21. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:38:05 UTC] PHP  22. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:38:05 UTC] PHP  23. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:05 UTC] PHP  24. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:05 UTC] PHP  25. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:13 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:13 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:0
+[10-Aug-2021 08:38:13 UTC] PHP   2. do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:187
+[10-Aug-2021 08:38:13 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:484
+[10-Aug-2021 08:38:13 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:38:13 UTC] PHP   5. acf_ajax_fetch_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:13 UTC] PHP   6. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:612
+[10-Aug-2021 08:38:13 UTC] PHP   7. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:13 UTC] PHP   8. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:13 UTC] PHP   9. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:16 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:16 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:0
+[10-Aug-2021 08:38:16 UTC] PHP   2. do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:187
+[10-Aug-2021 08:38:16 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:484
+[10-Aug-2021 08:38:16 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:38:16 UTC] PHP   5. acf_ajax_fetch_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:16 UTC] PHP   6. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:612
+[10-Aug-2021 08:38:16 UTC] PHP   7. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:16 UTC] PHP   8. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:16 UTC] PHP   9. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:17 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:17 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:0
+[10-Aug-2021 08:38:17 UTC] PHP   2. do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:187
+[10-Aug-2021 08:38:17 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:484
+[10-Aug-2021 08:38:17 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:38:17 UTC] PHP   5. acf_ajax_fetch_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:17 UTC] PHP   6. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:612
+[10-Aug-2021 08:38:17 UTC] PHP   7. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:17 UTC] PHP   8. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:17 UTC] PHP   9. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:18 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:18 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[10-Aug-2021 08:38:18 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[10-Aug-2021 08:38:18 UTC] PHP   3. wp() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:16
+[10-Aug-2021 08:38:18 UTC] PHP   4. WP->main() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/functions.php:1291
+[10-Aug-2021 08:38:18 UTC] PHP   5. WP->parse_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp.php:750
+[10-Aug-2021 08:38:18 UTC] PHP   6. do_action_ref_array() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp.php:388
+[10-Aug-2021 08:38:18 UTC] PHP   7. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:551
+[10-Aug-2021 08:38:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:38:18 UTC] PHP   9. rest_api_loaded() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:18 UTC] PHP  10. WP_REST_Server->serve_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:354
+[10-Aug-2021 08:38:18 UTC] PHP  11. WP_REST_Server->dispatch() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[10-Aug-2021 08:38:18 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[10-Aug-2021 08:38:18 UTC] PHP  13. WP_REST_Posts_Controller->update_item() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[10-Aug-2021 08:38:18 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:881
+[10-Aug-2021 08:38:18 UTC] PHP  15. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1768
+[10-Aug-2021 08:38:18 UTC] PHP  16. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:38:18 UTC] PHP  17. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:18 UTC] PHP  18. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:38:18 UTC] PHP  19. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:38:18 UTC] PHP  20. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:38:18 UTC] PHP  21. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:38:18 UTC] PHP  22. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:38:18 UTC] PHP  23. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:18 UTC] PHP  24. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:18 UTC] PHP  25. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:18 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:18 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/post.php:0
+[10-Aug-2021 08:38:18 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/post.php:187
+[10-Aug-2021 08:38:18 UTC] PHP   3. array_reduce() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/edit-form-blocks.php:82
+[10-Aug-2021 08:38:18 UTC] PHP   4. rest_preload_api_request() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/edit-form-blocks.php:82
+[10-Aug-2021 08:38:18 UTC] PHP   5. rest_do_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:2816
+[10-Aug-2021 08:38:18 UTC] PHP   6. WP_REST_Server->dispatch() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:479
+[10-Aug-2021 08:38:18 UTC] PHP   7. WP_REST_Server->respond_to_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[10-Aug-2021 08:38:18 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[10-Aug-2021 08:38:18 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[10-Aug-2021 08:38:18 UTC] PHP  10. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1768
+[10-Aug-2021 08:38:18 UTC] PHP  11. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:38:18 UTC] PHP  12. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:18 UTC] PHP  13. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:38:18 UTC] PHP  14. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:38:18 UTC] PHP  15. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:38:18 UTC] PHP  16. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:38:18 UTC] PHP  17. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:38:18 UTC] PHP  18. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:18 UTC] PHP  19. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:18 UTC] PHP  20. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:19 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:19 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[10-Aug-2021 08:38:19 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[10-Aug-2021 08:38:19 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[10-Aug-2021 08:38:19 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[10-Aug-2021 08:38:19 UTC] PHP   5. the_content() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[10-Aug-2021 08:38:19 UTC] PHP   6. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/post-template.php:253
+[10-Aug-2021 08:38:19 UTC] PHP   7. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:38:19 UTC] PHP   8. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:19 UTC] PHP   9. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:38:19 UTC] PHP  10. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:38:19 UTC] PHP  11. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:38:19 UTC] PHP  12. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:38:19 UTC] PHP  13. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:38:19 UTC] PHP  14. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:19 UTC] PHP  15. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:19 UTC] PHP  16. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:38 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:38 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/post.php:0
+[10-Aug-2021 08:38:38 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/post.php:187
+[10-Aug-2021 08:38:38 UTC] PHP   3. array_reduce() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/edit-form-blocks.php:82
+[10-Aug-2021 08:38:38 UTC] PHP   4. rest_preload_api_request() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/edit-form-blocks.php:82
+[10-Aug-2021 08:38:38 UTC] PHP   5. rest_do_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:2816
+[10-Aug-2021 08:38:38 UTC] PHP   6. WP_REST_Server->dispatch() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:479
+[10-Aug-2021 08:38:38 UTC] PHP   7. WP_REST_Server->respond_to_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[10-Aug-2021 08:38:38 UTC] PHP   8. WP_REST_Posts_Controller->get_item() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[10-Aug-2021 08:38:38 UTC] PHP   9. WP_REST_Posts_Controller->prepare_item_for_response() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[10-Aug-2021 08:38:38 UTC] PHP  10. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1768
+[10-Aug-2021 08:38:38 UTC] PHP  11. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:38:38 UTC] PHP  12. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:38 UTC] PHP  13. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:38:38 UTC] PHP  14. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:38:38 UTC] PHP  15. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:38:38 UTC] PHP  16. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:38:38 UTC] PHP  17. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:38:38 UTC] PHP  18. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:38 UTC] PHP  19. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:38 UTC] PHP  20. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:40 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:40 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:0
+[10-Aug-2021 08:38:40 UTC] PHP   2. do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-admin/admin-ajax.php:187
+[10-Aug-2021 08:38:40 UTC] PHP   3. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:484
+[10-Aug-2021 08:38:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:38:40 UTC] PHP   5. acf_ajax_fetch_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:40 UTC] PHP   6. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:612
+[10-Aug-2021 08:38:40 UTC] PHP   7. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:40 UTC] PHP   8. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:40 UTC] PHP   9. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:38:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:38:40 UTC] PHP Stack trace:
+[10-Aug-2021 08:38:40 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[10-Aug-2021 08:38:40 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[10-Aug-2021 08:38:40 UTC] PHP   3. wp() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:16
+[10-Aug-2021 08:38:40 UTC] PHP   4. WP->main() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/functions.php:1291
+[10-Aug-2021 08:38:40 UTC] PHP   5. WP->parse_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp.php:750
+[10-Aug-2021 08:38:40 UTC] PHP   6. do_action_ref_array() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp.php:388
+[10-Aug-2021 08:38:40 UTC] PHP   7. WP_Hook->do_action() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:551
+[10-Aug-2021 08:38:40 UTC] PHP   8. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:316
+[10-Aug-2021 08:38:40 UTC] PHP   9. rest_api_loaded() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:40 UTC] PHP  10. WP_REST_Server->serve_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api.php:354
+[10-Aug-2021 08:38:40 UTC] PHP  11. WP_REST_Server->dispatch() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[10-Aug-2021 08:38:40 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[10-Aug-2021 08:38:40 UTC] PHP  13. WP_REST_Posts_Controller->get_item() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[10-Aug-2021 08:38:40 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[10-Aug-2021 08:38:40 UTC] PHP  15. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1768
+[10-Aug-2021 08:38:40 UTC] PHP  16. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:38:40 UTC] PHP  17. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:38:40 UTC] PHP  18. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:38:40 UTC] PHP  19. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:38:40 UTC] PHP  20. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:38:40 UTC] PHP  21. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:38:40 UTC] PHP  22. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:38:40 UTC] PHP  23. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:38:40 UTC] PHP  24. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:38:40 UTC] PHP  25. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:43:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 37
+[10-Aug-2021 08:43:49 UTC] PHP Stack trace:
+[10-Aug-2021 08:43:49 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[10-Aug-2021 08:43:49 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[10-Aug-2021 08:43:49 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[10-Aug-2021 08:43:49 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[10-Aug-2021 08:43:49 UTC] PHP   5. the_content() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[10-Aug-2021 08:43:49 UTC] PHP   6. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/post-template.php:253
+[10-Aug-2021 08:43:49 UTC] PHP   7. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:43:49 UTC] PHP   8. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:43:49 UTC] PHP   9. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:43:49 UTC] PHP  10. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:43:49 UTC] PHP  11. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:43:49 UTC] PHP  12. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:43:49 UTC] PHP  13. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:43:49 UTC] PHP  14. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:43:49 UTC] PHP  15. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:43:49 UTC] PHP  16. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:44:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 42
+[10-Aug-2021 08:44:09 UTC] PHP Stack trace:
+[10-Aug-2021 08:44:09 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[10-Aug-2021 08:44:09 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[10-Aug-2021 08:44:09 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[10-Aug-2021 08:44:09 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[10-Aug-2021 08:44:09 UTC] PHP   5. the_content() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[10-Aug-2021 08:44:09 UTC] PHP   6. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/post-template.php:253
+[10-Aug-2021 08:44:09 UTC] PHP   7. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:44:09 UTC] PHP   8. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:44:09 UTC] PHP   9. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:44:09 UTC] PHP  10. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:44:09 UTC] PHP  11. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:44:09 UTC] PHP  12. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:44:09 UTC] PHP  13. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:44:09 UTC] PHP  14. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:44:09 UTC] PHP  15. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:44:09 UTC] PHP  16. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43
+[10-Aug-2021 08:44:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/partials/blocks/block-pricelist.php on line 42
+[10-Aug-2021 08:44:35 UTC] PHP Stack trace:
+[10-Aug-2021 08:44:35 UTC] PHP   1. {main}() /Users/29x/Documents/projects/kindtand/app/public/index.php:0
+[10-Aug-2021 08:44:35 UTC] PHP   2. require() /Users/29x/Documents/projects/kindtand/app/public/index.php:17
+[10-Aug-2021 08:44:35 UTC] PHP   3. require_once() /Users/29x/Documents/projects/kindtand/app/public/wp-blog-header.php:19
+[10-Aug-2021 08:44:35 UTC] PHP   4. include() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/template-loader.php:106
+[10-Aug-2021 08:44:35 UTC] PHP   5. the_content() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/front-page.php:3
+[10-Aug-2021 08:44:35 UTC] PHP   6. apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/post-template.php:253
+[10-Aug-2021 08:44:35 UTC] PHP   7. WP_Hook->apply_filters() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/plugin.php:212
+[10-Aug-2021 08:44:35 UTC] PHP   8. do_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-hook.php:292
+[10-Aug-2021 08:44:35 UTC] PHP   9. render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:837
+[10-Aug-2021 08:44:35 UTC] PHP  10. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/blocks.php:799
+[10-Aug-2021 08:44:35 UTC] PHP  11. WP_Block->render() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:211
+[10-Aug-2021 08:44:35 UTC] PHP  12. acf_render_block_callback() /Users/29x/Documents/projects/kindtand/app/public/wp-includes/class-wp-block.php:221
+[10-Aug-2021 08:44:35 UTC] PHP  13. acf_rendered_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[10-Aug-2021 08:44:35 UTC] PHP  14. acf_render_block() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[10-Aug-2021 08:44:35 UTC] PHP  15. twentyninetimes_blocks() /Users/29x/Documents/projects/kindtand/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[10-Aug-2021 08:44:35 UTC] PHP  16. include() /Users/29x/Documents/projects/kindtand/app/public/wp-content/themes/kindtand/functions/functions-blocks.php:43

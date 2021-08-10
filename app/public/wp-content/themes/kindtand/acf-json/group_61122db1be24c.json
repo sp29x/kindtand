@@ -1,0 +1,62 @@
+{
+    "key": "group_61122db1be24c",
+    "title": "Price",
+    "fields": [
+        {
+            "key": "field_61122e018ec5c",
+            "label": "Pris",
+            "name": "blockPricePrice",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61122e213993a",
+            "label": "Beskrivelse",
+            "name": "blockPriceDescription",
+            "type": "text",
+            "instructions": "Hvis beskrivelse ikke er udfyldt, vises titlen.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "price"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1628587159
+}

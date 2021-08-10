@@ -25,8 +25,8 @@ if( !empty($block['align']) ) {
 }
 ?>
 
-
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
+
     <?php if ( $services ) : ?>
 
         <h2 class="loop-service__title"><?php echo $servicelistTitle; ?></h2>

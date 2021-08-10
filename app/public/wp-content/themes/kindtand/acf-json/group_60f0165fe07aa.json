@@ -5,7 +5,7 @@
         {
             "key": "field_60f01668478fa",
             "label": "Stilling",
-            "name": "blockEmployeeWorkingTitle",
+            "name": "blockEmployeePosition",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -63,5 +63,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1626347226
+    "modified": 1628587850
 }

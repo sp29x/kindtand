@@ -48,18 +48,22 @@
 	/* Parts
 	********************/
 	@import 'components/site/parts/parts.topbanner';
+	@import 'components/site/parts/parts.page-error';
 
 
 
 	/* Loops
 	********************/
-	@import 'components/site/header/header.actions';
 	@import 'components/loop/loop.service';
+	@import 'components/loop/loop.price';
+	@import 'components/loop/loop.employee';
 	
 
 	/* Items
 	********************/
 	@import 'components/loop/item/item.service';
+	@import 'components/loop/item/item.price';
+	@import 'components/loop/item/item.employee';
 
 
 /* Views

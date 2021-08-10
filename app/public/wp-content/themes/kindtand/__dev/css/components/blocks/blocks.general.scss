@@ -18,13 +18,19 @@
 	}
 }
 
-.wp-block-group[data-align='wide'] {
-	max-width: 940px;
+.wp-block[data-align='wide'] {
+	.wp-block-group,
+	.wp-block {
+		max-width: $container-wide-width;
+	}
 }
 
-.wp-block-group[data-align='full'] {
-	width: 100%;
-	max-width: none;
+.wp-block[data-align='full'] {
+	.wp-block-group,
+	.wp-block {
+		width: 100%;
+		max-width: none;
+	}
 }
 
 .wp-block-image {
