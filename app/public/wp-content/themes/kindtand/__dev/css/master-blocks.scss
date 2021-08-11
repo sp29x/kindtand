@@ -47,6 +47,15 @@
 
 
 .block-editor {
+
+	.item-slide {
+		display: none;
+
+		&:first-of-type {
+			display: block;
+		}
+	}
+
 	.editor-styles-wrapper {
 
 		.editor-post-title {

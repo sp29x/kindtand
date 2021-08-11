@@ -13,10 +13,24 @@
 		width: 24px;
 		height: 12px;
 		cursor: pointer;
+		transition: transform .27s;
+		will-change: transform;
 
 		&--prev {
 			transform: rotate(180deg);
 			margin-right: 25px;
+
+			&:hover,
+			&:focus {
+				transform: translateX(-10px) rotate(180deg);
+			}
+		}
+
+		&--next {
+			&:hover,
+			&:focus {
+				transform: translateX(10px);
+			}
 		}
 	}
 }

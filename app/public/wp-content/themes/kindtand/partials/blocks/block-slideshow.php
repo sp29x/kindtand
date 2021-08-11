@@ -48,7 +48,7 @@ if( !empty($block['align']) ) {
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?php echo get_template_directory_uri(); ?>/__dist/icons/icons.svg#arrow-right-icon"></use>
                 </svg>
 
-                <svg class="icon arrow-right__icon block-slideshow__slide-arrow js-slideshow-next">
+                <svg class="icon arrow-right__icon block-slideshow__slide-arrow block-slideshow__slide-arrow--next js-slideshow-next">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?php echo get_template_directory_uri(); ?>/__dist/icons/icons.svg#arrow-right-icon"></use>
                 </svg>
             </div>
