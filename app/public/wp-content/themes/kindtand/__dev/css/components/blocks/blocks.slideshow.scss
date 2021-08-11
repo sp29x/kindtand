@@ -1,0 +1,22 @@
+.block-slideshow {
+	position: relative;
+
+	&__prev-next {
+		display: flex;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		transform: translateY(calc(25px + 100%));
+	}
+
+	&__slide-arrow {
+		width: 24px;
+		height: 12px;
+		cursor: pointer;
+
+		&--prev {
+			transform: rotate(180deg);
+			margin-right: 25px;
+		}
+	}
+}

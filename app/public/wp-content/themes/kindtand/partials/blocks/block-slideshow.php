@@ -11,10 +11,9 @@ $id = 'slideshow-' . $block['id'];
 if( !empty($block['anchor']) ) {
     $id = $block['anchor'];
 }
-$slideshows = get_field('block_slideshow');
-$slides = get_field('blockSlideshowSlideshows');
-$slideshowTitle = get_field('blockSlideshowTitle');
-$className = 'loop-slideshow';
+$slideshow = get_field('block_slideshow');
+$slides = get_field('blockSlideshowSlides');
+$className = 'block-slideshow-wrapper';
 
 if( !empty($block['className']) ) {
     $className .= ' ' . $block['className'];
@@ -24,36 +23,38 @@ if( !empty($block['align']) ) {
 }
 ?>
 
-<div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
 
-    <?php if ( $slideshows ) : ?>
 
-        <h2 class="loop-slideshow__title"><?php echo $servicelistTitle; ?></h2>
+<div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?> js-block-slideshow-wrapper">
 
-        <div class="loop-services-list">
+    <?php if ( $slides ) : ?>
+
+        <div class="block-slideshow js-block-slideshow">
 
             <?php
-                foreach($services as $key => $service) :
-                    $serviceId = $service->ID;
-                    $serviceName = get_the_title($serviceId);
-                    $serviceTitle = get_fields($serviceId)['blockServiceTitle'];
+                foreach($slides as $key => $slide) :
+                    $slideId = $slide['id'];
             ?>
 
-                <?php get_template_part('partials/loop/item/item', 'service', $id = $serviceId); ?>
-
-                <?php
-                    if($servicelistLink && $key >= 2) {
-                        break;
-                    }
-                ?>
+                <?php get_template_part('partials/loop/item/item', 'slide', $slide = $slide); ?>
 
             <?php endforeach; ?>
 
-        </div>
 
-        <?php if($servicelistLink) : ?>
-            <a href="<?php echo $servicelistLink['url']; ?>" target="<?php echo $servicelistLink['target']; ?>" class="btn btn--white"><?php echo $servicelistLink['title']; ?></a>
-        <?php endif; ?>
+
+        <?php if(count($slides) > 1) : ?>
+            <div class="block-slideshow__prev-next js-slideshow-prev-next">
+                <svg class="icon arrow-right__icon block-slideshow__slide-arrow block-slideshow__slide-arrow--prev js-slideshow-prev">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?php echo get_template_directory_uri(); ?>/__dist/icons/icons.svg#arrow-right-icon"></use>
+                </svg>
+
+                <svg class="icon arrow-right__icon block-slideshow__slide-arrow js-slideshow-next">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?php echo get_template_directory_uri(); ?>/__dist/icons/icons.svg#arrow-right-icon"></use>
+                </svg>
+            </div>
+        <?php  endif; ?>
+
+        </div>
 
 
 	<?php endif; ?>

@@ -58,7 +58,7 @@ function kindtand_acf_init() {
 			'category'			=> 'sncm',
 			'supports'			=> array('align' => false),
 			'icon'				=> 'images-alt',
-			'keywords'			=> array( 'slideshow', 'galleri', 'billeder' ),
+			'keywords'			=> array( 'slideshow', 'galleri', 'billeder', 'slide' ),
         ));
 	
     }

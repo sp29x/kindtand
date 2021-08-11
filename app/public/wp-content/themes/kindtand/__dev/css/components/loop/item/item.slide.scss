@@ -1,0 +1,12 @@
+.item-slide {
+	width: 100%;
+	height: 250px;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+    @include media-breakpoint-up(lg) {
+    	height: 370px;
+	}
+}

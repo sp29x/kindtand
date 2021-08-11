@@ -24,10 +24,8 @@
 
 		/* Blocks
 		********************/
-		@import 'base/base';
 		@import 'components/blocks/blocks.general';
-		@import 'base/base.fonts';
-		@import 'base/base.typography';
+		@import 'components/blocks/blocks.slideshow';
 
 
 		/* Loop
@@ -43,6 +41,7 @@
 		@import 'components/loop/item/item.service';
 		@import 'components/loop/item/item.price';
 		@import 'components/loop/item/item.employee';
+		@import 'components/loop/item/item.slide';
 
 
 

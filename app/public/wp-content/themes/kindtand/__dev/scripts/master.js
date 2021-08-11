@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     kindtand.navigation.init();
     kindtand.siteHeader.init();
+    kindtand.slideshow.init();
     
 });
 
