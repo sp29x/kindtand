@@ -35,6 +35,9 @@
 	}
 
 	&--book {
+		background-color: $color-brown-dark;
+		color: #fff;
+		
 		&.btn {
 			@include media-breakpoint-down(md) {
 				padding: 8px 15px;
